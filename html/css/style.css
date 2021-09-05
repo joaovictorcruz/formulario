@@ -77,6 +77,7 @@
 
 .send{
     height: 47px;
+    width: 100%;
     background-color: #3f3d56;
     font-weight: 500;
     font-size: 16px;
@@ -85,12 +86,113 @@
     margin-bottom: 32px;
 }
 
+.send button{
+    margin-bottom: 28px;
+}
+
 .singin{
     text-align: center;
     font-size: 14px;
 }
 
+.box-singin{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
 .singin-link{
     color: #1db9e0;
     text-decoration: none;
+    padding-left: 5px;
+}
+
+.singin-form{
+    width: 396px;
+}
+
+.box-dubble{
+    display: flex;
+    justify-content: space-between;
+}
+
+.box-date{
+    width: 170px;
+    display: flex;
+    flex-direction: column;
+
+}
+
+.box-country{
+    width: 208px;
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 22px;
+}
+
+.country-label{
+    margin-bottom: 9px;
+}
+
+.box-margin{
+    margin-bottom: 22px;
+}
+
+.date{
+    height: 47px;
+    padding: 12px 14px;
+    border:1px solid #ABB3A8;
+}
+
+.date-label{
+    margin-bottom: 9px;
+}
+
+.country{
+    height: 47px;
+    padding: 12px 14px;
+    border-color: #ABB3A8;
+}
+
+.gender{
+    margin-bottom: 8px;
+}
+
+.box-gender{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.wrapper{
+    display: flex;
+    align-items: center;
+}
+
+.wrapper input{
+    margin-right: 6px;
+    display: inline-block;
+    width: 18px;
+    height: 18px;
+}
+
+.accept-span{
+    font-size: 14px;
+}
+
+.accept-link{
+    color: #1db9e0;
+}
+
+.accept-container{
+    margin-bottom: 28px;
+    display: flex;
+}
+
+.accept{
+    display: inline-block;
+    width: 18px;
+    height: 18px;
+    min-width: 18px;
+    margin-right: 10px;
 }
