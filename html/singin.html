@@ -1,87 +1,93 @@
-<head>
-    <title>Página de Cadastro</title>
-    <link rel="stylesheet" href="../css/style.css">
-    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap&quot; rel=" stylesheet">
-</head>
+<!DOCTYPE html>
+<html lang="pt-BR">
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Página de Cadastro</title>
+        <link rel="stylesheet" href="../css/style.css">
+        <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap&quot; rel=" stylesheet">
+    </head>
 
-<body>
-    <section class="container">
-        <form class="singin-form">
-            <h1 class="title">Faça seu cadastro</h1>
+    <body>
+        <section class="container">
+            <form class="singin-form">
+                <h1 class="title">Faça seu cadastro</h1>
 
-            <div class="box-margin">
-                <label class="label-text" for="Name">Nome completo</label>
-                <input class="enter-text" type="text" id="Name" placeholder="Digite seu nome" />
-            </div>
-
-            <div class="box-dubble">
-                <div class="box-date">
-                    <label for="date" class="date-label">Data de Nascimento</label>
-                    <input type="date" name="date" id="date" class="date">
+                <div class="box-margin">
+                    <label class="label-text" for="Name">Nome completo</label>
+                    <input class="enter-text" type="text" id="Name" placeholder="Digite seu nome" />
                 </div>
 
-                <div class="box-country">
-                    <label for="country" class="country-label">País</label>
-                    <select class="country">
-                        <option value="brasil">Brasil</option>
-                        <option value="alemanha">Alemanha</option>
-                        <option value="china">China</option>
-                    </select>
-                </div>
-            </div>
-
-
-            <div class="box-margin">
-                <div class="gender">
-                    <label for="Genero">Gênero:</label>
-                </div>
-                <div class="box-gender">
-                    <div class="wrapper">
-                        <input type="radio" name="radio" id="fem">
-                        <label for="fem">Feminino</label>
+                <div class="box-dubble">
+                    <div class="box-date">
+                        <label for="date" class="date-label">Data de Nascimento</label>
+                        <input type="date" name="date" id="date" class="date">
                     </div>
 
-                    <div class="wrapper">
-                        <input type="radio" name="radio" id="mas">
-                        <label for="mas">Masculino</label>
+                    <div class="box-country">
+                        <label for="country" class="country-label">País</label>
+                        <select class="country">
+                            <option value="brasil">Brasil</option>
+                            <option value="alemanha">Alemanha</option>
+                            <option value="china">China</option>
+                        </select>
                     </div>
-
-                    <div class="wrapper">
-                        <input type="radio" name="radio" id="not">
-                        <label for="not">Não Declarar</label>
-                    </div>
-
                 </div>
-            </div>
 
-            <div class="box-margin">
-                <label class="label-text" for="email">E-mail</label>
-                <input class="enter-text" type="text" id="email" placeholder="Digite seu email" />
-            </div>
 
-            <div class="box-margin">
-                <label class="label-text" for="password">senha</label>
-                <input class="enter-text" type="password" id="password" placeholder="Crie uma senha" />
-            </div>
+                <div class="box-margin">
+                    <div class="gender">
+                        <label for="Genero">Gênero:</label>
+                    </div>
+                    <div class="box-gender">
+                        <div class="wrapper">
+                            <input type="radio" name="radio" id="fem">
+                            <label for="fem">Feminino</label>
+                        </div>
 
-            <div class="box-margin">
-                <label class="label-text" for="password">Confirme sua Senha</label>
-                <input class="enter-text" type="password" id="password" placeholder="Confirme uma senha" />
-            </div>
+                        <div class="wrapper">
+                            <input type="radio" name="radio" id="mas">
+                            <label for="mas">Masculino</label>
+                        </div>
 
-            <div class="accept-container">
-                <input type="checkbox" name="accept" id="accept" class="accept">
-                <span class="accept-span">Aceito os <a href="#" class="accept-link">Termos e condições</a> e concordo com as <a href="#" class="accept-link"></a>politicas de
-                    privacidade</a> do Hall To Code.</span>
-            </div>
+                        <div class="wrapper">
+                            <input type="radio" name="radio" id="not">
+                            <label for="not">Não Declarar</label>
+                        </div>
 
-            <button type="submit" class="send">Cadastrar</button>
-            <div class="box-singin">
-                <span class="singin">
-                    Já tem uma conta?
-                    <a href="/index.html" class="singin-link">Entre agora</a>
-                </span>
-            </div>
-        </form>
-    </section>
-</body>
+                    </div>
+                </div>
+
+                <div class="box-margin">
+                    <label class="label-text" for="email">E-mail</label>
+                    <input class="enter-text" type="text" id="email" placeholder="Digite seu email" />
+                </div>
+
+                <div class="box-margin">
+                    <label class="label-text" for="password">senha</label>
+                    <input class="enter-text" type="password" id="password" placeholder="Crie uma senha" />
+                </div>
+
+                <div class="box-margin">
+                    <label class="label-text" for="password">Confirme sua Senha</label>
+                    <input class="enter-text" type="password" id="password" placeholder="Confirme uma senha" />
+                </div>
+
+                <div class="accept-container">
+                    <input type="checkbox" name="accept" id="accept" class="accept">
+                    <span class="accept-span">Aceito os <a href="#" class="accept-link">Termos e condições</a> e concordo com as <a href="#" class="accept-link"></a>politicas de
+                        privacidade</a>.</span>
+                </div>
+
+                <button type="submit" class="send">Cadastrar</button>
+                <div class="box-singin">
+                    <span class="singin">
+                        Já tem uma conta?
+                        <a href="/index.html" class="singin-link">Entre agora</a>
+                    </span>
+                </div>
+            </form>
+        </section>
+    </body>
+</html>
